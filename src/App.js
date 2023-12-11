@@ -1,11 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import CadContato from './componentes/cadContato';
+{ /* import CadContato from './componentes/cadContato'; */}
+{import ConsultaContato from './componentes/consultaContato';
+import Profile from './componentes/profile';
 
 function App() {
   return (
     <div className="container">
-      <CadContato/>  
+     { /* <CadContato/> */}
+    { /* <ConsultaContato/> */}
+    <Profile/>
+    
     </div>
   );
 }
